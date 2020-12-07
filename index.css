@@ -18,6 +18,8 @@ body {
     margin: 10px;
 }
 
+/* canvas needs to span whole screen */
+
 /* #main-screen {
     width: 500px;
     height: 400px;
@@ -34,18 +36,6 @@ body {
     left: 10%;
     z-index: 10;
 } */
-
-#orange {
-    color: orange;
-}
-
-#blue {
-    color: blue;
-}
-
-#green {
-    color: green;
-}
 
 #input-box div {
     margin-bottom: 20px;
