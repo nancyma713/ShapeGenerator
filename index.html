@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="./src/index.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Shape Generator</title>
+</head>
+
+<body>
+    <div id="main-screen">
+        <div id="shapes-area">
+            <canvas id="canvas-board" width="800" height="400"></canvas>
+        </div>
+        <div id="input-box">
+            <div id="main-header">
+                <h1>Shape Generator</h1>
+                <p>Use the controls below to generate shapes.</p>
+            </div>
+
+            <p>Select color:</p>
+            <div id="color-select">
+                <input type="radio" id="orange" name="color" value="orange" checked>Orange
+                <input type="radio" id="blue" name="color" value="blue">Blue
+                <input type="radio" id="green" name="color" value="green">Green
+            </div>
+
+            <p>Select shape:</p>
+            <div id="shape-select">
+                <input type="radio" id="square" name="shape" value="square" checked>Square
+                <input type="radio" id="triangle" name="shape" value="triangle">Triangle
+                <input type="radio" id="circle" name="shape" value="circle">Circle
+            </div>
+
+            <p>Fill with Shiba:</p>
+            <div id="shiba-select">
+                <input type="radio" id="shiba" name="shibasan" value="yes" checked>Yes
+                <input type="radio" id="noshiba" name="shibasan" value="no">No
+            </div>
+
+            <div class="buttons">
+                <button id="generate">Generate</button>
+                <button id="clear-all">Clear Screen</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
